@@ -1,3 +1,4 @@
-package "htop" do
-  version node["htop"]["version"]
+yum_package 'htop' do
+  action :install
 end
+
