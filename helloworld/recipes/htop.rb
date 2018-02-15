@@ -1,4 +1,3 @@
-yum_package 'htop' do
-  action :install
+package 'Install htop' do
+  package_name 'htop'
 end
-
